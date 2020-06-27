@@ -21,7 +21,7 @@ $('.ba-header-slider').slick({
 
  $('.ba-header-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
 	console.log(nextSlide);
-	$('.ba-header').css({"background-image": `url(../img/slider${nextSlide}.png)`});
+	$('.ba-header').css({"background-image": `url(img/slider${nextSlide}.png)`});
  });
  function initMap() {
         
