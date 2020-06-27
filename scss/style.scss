@@ -249,6 +249,7 @@ a:hover{
 		flex-direction: row;
 		justify-content: space-between;
 		&--card{
+			margin: 0 10px;
 			width:25%;
 			background: white;
 			&-autor{

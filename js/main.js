@@ -8,15 +8,18 @@ $('.ba-header-slider').slick({
 	infinite: true,
 	speed: 500,
 	fade: true,
-	cssEase: 'linear'
+	cssEase: 'linear',
  });
  $('.ba-news_inner').slick({
 	slidesToShow: 3,
+	slidesToScroll: 1,
 	centerPadding: '60px',
 	dots: true,
 	arrows: true,
 	infinite: true,
 	speed: 500,
+	autoplay: true,
+	autoplaySpeed: 4000
  });
 
  $('.ba-header-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){

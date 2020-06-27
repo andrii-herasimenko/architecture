@@ -981,6 +981,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-between; }
     .ba-news_inner--card {
+      margin: 0 10px;
       width: 25%;
       background: white; }
       .ba-news_inner--card-autor {
