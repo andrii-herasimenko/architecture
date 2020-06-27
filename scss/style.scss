@@ -178,6 +178,7 @@ a:hover{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	overflow: hidden;
 	&_inner{
 		display: flex;
 		flex-direction: row;
